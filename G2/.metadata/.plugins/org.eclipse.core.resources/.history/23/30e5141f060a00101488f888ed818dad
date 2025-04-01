@@ -1,0 +1,25 @@
+package q2;
+
+class A {
+	IndexOutOfBoundsException i = new IndexOutOfBoundsException();
+
+	void A() throws IndexOutOfBoundsException {
+		throw i;
+	}
+
+}
+
+class B {
+	void B() {
+		A a = new A();
+		a.A();
+	}
+}
+
+public class Main {
+	public static void main(String[] args) {
+		B b = new B();
+		b.B();
+
+	}
+}

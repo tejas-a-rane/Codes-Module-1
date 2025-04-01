@@ -1,0 +1,15 @@
+package q2;
+
+import java.util.Map;
+
+interface Operations {
+	void insert(Map<Integer, String> map);
+
+	void update();
+
+	void delete();
+
+	void search();
+
+	void show();
+}

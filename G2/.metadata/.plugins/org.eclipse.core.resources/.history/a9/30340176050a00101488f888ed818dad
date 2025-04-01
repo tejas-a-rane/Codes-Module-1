@@ -1,0 +1,13 @@
+package q2;
+class A{
+	IndexOutOfBoundsException i = new IndexOutOfBoundsException();
+	void A() {
+		throw i;
+	}
+}
+public class Main {
+public static void main(String[] args) {
+	A a = new A();
+	a.A();
+}
+}

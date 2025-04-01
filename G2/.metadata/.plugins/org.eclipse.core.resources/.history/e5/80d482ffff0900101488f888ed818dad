@@ -1,0 +1,5 @@
+package q12;
+static import q1.*;
+public class Main1  {
+	
+}
